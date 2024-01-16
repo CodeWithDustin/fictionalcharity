@@ -1,0 +1,68 @@
+/* main fonts import starts */
+
+@import url("https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Wix Madefor Display", sans-serif;
+}
+
+/* main fonts import ends */
+
+/* Header banner starts */
+
+.fullhomesection {
+  width: 100%;
+}
+
+.banner {
+  width: 1140px;
+  margin: auto;
+}
+
+#headersection {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  z-index: 2;
+}
+
+#headersection .banner {
+  display: flex;
+  justify-content: space-between;
+}
+
+#headersection .banner .logo {
+  padding: 10px 0;
+  height: 100px;
+}
+
+#headersection .banner .logo img {
+  height: 100%;
+}
+
+#headersection .banner nav ul {
+  list-style: none;
+}
+
+#headersection .banner nav ul li {
+  display: inline-block;
+}
+
+#headersection .banner nav ul li a {
+  display: inline-block;
+  height: 75px;
+  line-height: 90px;
+  padding: 0 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 16px;
+  color: #fff;
+}
+
+/* Header Banner ends */
