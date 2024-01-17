@@ -79,7 +79,7 @@ body {
   min-height: 100vh;
   width: 100%;
   background-position: 100%;
-  background-image: url("../images/banner_background.jfif");
+  background-image: url("images/banner_background.jfif");
   background-size: cover;
   background-attachment: fixed;
 }
